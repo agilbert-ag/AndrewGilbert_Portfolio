@@ -5,7 +5,7 @@
 This poster was created using ArcGIS, Tableau, Excel, and adobe InDesign. 
 
 
-Here is break down of what each software was used for:
+Here is breakdown of what each software was used for:
 
 ArcGIS:
 - Creating the point maps
@@ -23,6 +23,15 @@ InDesign:
 - Adding text and layout
 
 
-## Included in this repo is a data folder and a (insert name folder)
+## Included in this repo is a data folder and a folder with my work.
 ### Data:
-Inside the data folder there is a csv containing all the points I used. Data was collected from https://afdc.energy.gov/data_download. The exact parameters are included in a png in the folder as well.
+- A .csv containing all the points I used. Data was collected from https://afdc.energy.gov/data_download. The exact parameters are
+- A .png screenshot from the website containing exact parameters I used to download
+
+### The folder with my work includes:
+- A tableau workbook (.twbx) which shows exactly how I set up my variables. This can be opened in tableau reader which doesn't require a subscription but doesn't allow you to modify the workbook at all
+    - notes:
+        - ignore sheet 1 in the tableau workbook
+        - sheet 2 was used for visualizing before exporting the graph.
+        - sheet 3 is a copy of sheet 2 just with no background enabled, the sheet that I exported
+- 
