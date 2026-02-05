@@ -23,7 +23,7 @@ InDesign:
 - Adding text and layout
 
 
-## Included in this repo is a data folder and a folder with my work.
+## Included in this repo is a data folder and a folder with my work (and data.zip).
 ### Data:
 - A .csv containing all the points I used. Data was collected from https://afdc.energy.gov/data_download. The exact parameters are
 - A .png screenshot from the website containing exact parameters I used to download
