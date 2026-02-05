@@ -21,3 +21,8 @@ Excel:
 InDesign:
 - Compiling exports from ArcGIS, Tableau, & excel in to one place
 - Adding text and layout
+
+
+## Included in this repo is a data folder and a (insert name folder)
+### Data:
+Inside the data folder there is a csv containing all the points I used. Data was collected from https://afdc.energy.gov/data_download. The exact parameters are included in a png in the folder as well.
