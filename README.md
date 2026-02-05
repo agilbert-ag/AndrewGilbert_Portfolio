@@ -25,13 +25,21 @@ InDesign:
 
 ## Included in this repo is a folder called my work and folder called data.
 ### Data:
-- A .csv containing all the points I used. Data was collected from https://afdc.energy.gov/data_download. The exact parameters are
-- A .png screenshot from the website containing exact parameters I used to download
+- alt_fuel_stations (Sep 26 2025).csv: contains all the points I used. Data was collected from https://afdc.energy.gov/data_download.
+    - In excel I deleted any rows which contained data outside of the lower 48+DC, so theres 49 total "states." I did this for display purposes as the lower 48 is much easier to display.
+- Parameters.png screenshot from the website containing exact parameters I used when downloading alt_fuel_stations (Sep 26 2025).csv
+- Albersstates folder for Albersstates.shp: lower 48+DC for display purposes
+    - I created this shape by using a publicly available shapefile of the US which contained populations for each state
+    - I added a new column took the total number of stations in each state divided by population in each state(x100,000 for better display). This became the scaling factor for the cartogram
+    - Reprojected the original states shapefile into albers for better display
+
 
 ### The folder with my work includes:
-- A tableau workbook (.twbx) which shows exactly how I set up my variables. This can be opened in tableau reader which doesn't require a subscription but doesn't allow you to modify the workbook at all
-    - notes:
-        - ignore sheet 1 in the tableau workbook
-        - sheet 2 was used for visualizing before exporting the graph.
-        - sheet 3 is a copy of sheet 2 just with no background enabled, the sheet that I exported
-- 
+- bivariate_graph.twbx
+      - A tableau workbook which shows exactly how I set up my variables. This can be opened in tableau reader which doesn't require a subscription but doesn't allow you to modify the workbook at all
+          - notes:
+              - ignore sheet 1 in the tableau workbook
+              - sheet 2 was used for visualizing before exporting the graph.
+              - sheet 3 is a copy of sheet 2 just with no background enabled, the sheet that I exported
+
+- NonContiguous.py: python script for with comments for creating the cartogram
