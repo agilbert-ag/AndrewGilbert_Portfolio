@@ -8,8 +8,11 @@ This poster was created using ArcGIS, Tableau, Excel, and adobe InDesign.
 Here is breakdown of what each software was used for:
 
 ArcGIS:
-- Creating the point maps
+- Sort points by fuel type and export visually appealing data displays
+- Get counts for points
+- Filter out Hawaii, Alaska, Puerto Rico for easier visualization
 - Creating the non contiguous cartogram
+      - Required creating new dataset with fields of total statation counts in each state and total population.
 
 Tableau:
 - creating bar chart
